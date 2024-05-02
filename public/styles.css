@@ -1,0 +1,87 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+/* Centering the Form on the page and giving it a max-width */
+form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    color: #1a202c;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #4a5568;
+}
+
+/* Input and Select Element Styling */
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    margin-top: 8px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="date"]:hover,
+select:hover {
+    border-color: #b4b9be;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
